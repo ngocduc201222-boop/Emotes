@@ -6,7 +6,12 @@ from datetime import datetime
 from google.protobuf.timestamp_pb2 import Timestamp
 from concurrent.futures import ThreadPoolExecutor
 from threading import Thread
-from Pb2 import DEcwHisPErMsG_pb2 , MajoRLoGinrEs_pb2 , PorTs_pb2 , MajoRLoGinrEq_pb2 , sQ_pb2 , Team_msg_pb2
+import DEcwHisPErMsG_pb2
+import MajoRLoGinrEs_pb2
+import PorTs_pb2
+import MajoRLoGinrEq_pb2
+import sQ_pb2
+import Team_msg_pb2
 from cfonts import render, say
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)  
